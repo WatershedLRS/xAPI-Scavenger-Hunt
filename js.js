@@ -7,7 +7,7 @@ $(function() {
 function setUp(){
   $('body').html('<div class="container"></div>');
 
-  var welcome = $('<p>Weclome ' + cfg.employeeList[getUrlParameter('email')] + '!</p>'); 
+  var welcome = $('<p>Welcome ' + cfg.employeeList[getUrlParameter('email')] + '!</p>'); 
   $('.container').append(welcome);
   $('.container').append('<p>Please tap the name of the conference attendee you are speaking to.</p>');
 
