@@ -1,0 +1,24 @@
+var cfg = {};
+cfg.lrs;
+
+try {
+  lrs = new TinCan.LRS(
+    {
+      endpoint: "https://sandbox.watershedlrs.com/api/organizations/xxx/lrs/",
+      username: "xxx",
+      password: "xxx",
+      allowFail: false
+    }
+  );
+}
+catch (ex) {
+  console.log("Failed to setup LRS object: ", ex);
+}
+
+cfg.employeeList = {
+  "person@example.com": "Person Example"
+};
+
+cfg.attendeeList = ["Joe Bloggs", "Jane Doe"];
+
+cfg.shareUrl = 'https://sandbox.watershedlrs.com/app/index.html#/share/xxx';
