@@ -1,3 +1,5 @@
+cfg.attendeeList.sort();
+
 $(function() {
   setUp();
   var interval = null;
