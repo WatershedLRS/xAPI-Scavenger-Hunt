@@ -84,7 +84,7 @@ function sendStatement(attendeeName){
       object: {
         objectType: "Agent",
         name: employeeName,
-        mbox: 'mailto' + employeeEmail
+        mbox: employeeEmail
       },
       context: {
         contextActivities: {
